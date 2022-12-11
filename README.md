@@ -1,2 +1,2 @@
-# JavaScript-Projects-For-Beginner
- JavaScript projects I've developed while learning.
+# JavaScript Projects For Beginner (Constantly Updated)
+In this repository, I will add projects that I have developed to improve and practice myself while learning JavaScript. In this repository I will generally add beginner or intermediate level projects. I will be adding different projects by constantly updating this repository. You can access some of the projects I have added to this repository on my website by clicking [here](https://yasinakbulut.com).
