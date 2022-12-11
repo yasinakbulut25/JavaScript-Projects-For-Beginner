@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.clock-container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #7a86d7, #707acc, #676ec1, #5d63b6, #5457ab, #5457ab, #5457ab, #5457ab, #5d63b6, #676ec1, #707acc, #7a86d7);
+    display: grid;
+    place-items: center;
+}
+.clock-boxes{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px 50px;
+}
+.clock{
+    width: 125px;
+    height: 125px;
+    display: grid;
+    place-items: center;
+    color:#48489C;
+    background-color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+}
+.clock-name{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+@media screen and (max-width: 572px) {
+    .title{
+        font-size: 32px;
+    }
+    .clock{
+        width: 70px;
+        height: 70px;
+        font-size: 24px;
+    } 
+    .clock-name{
+        font-size: 12px;
+    }
+}
